@@ -1,5 +1,6 @@
 let nav = document.getElementById('menSoc');
-window.alert("Bienvenid@ ¿Quieres un integrante nuevo en tu familia? ¡Esta es tu oportunidad!");
+
+window.alert("Bienvenid@ ¿Quieres un integrante nuevo en tu familia? Esta es tu oportunidad");
 
 function menus(){
     let Desplazamiento_actual = window.pageYOffset;
@@ -62,4 +63,28 @@ w.focus()
 setTimeout(function() {w.close();}, 2000)
 }
 
+//Inicio cambio de color//
+function generarNuevoColor(){
+	var simbolos, color;
+	simbolos = "0123456789ABCDEF";
+	color = "#";
+
+	for(var i = 0; i < 6; i++){
+		color = color + simbolos[Math.floor(Math.random() * 16)];
+	}
+
+	document.body.style.background = color;
+	document.getElementById("hexadecimal").innerHTML = color;
+	document.getElementById("text").innerHTML = "Copiar Color";
+}
+
+function copiarAlPortapapeles(hexadecimal) {
+	var aux = document.createElement("input");
+	aux.setAttribute("value", document.getElementById(hexadecimal).innerHTML);
+	document.body.appendChild(aux);
+	aux.select();
+	document.execCommand("copy");
+	document.body.removeChild(aux);
+	document.getElementById("text").innerHTML = "Copiado!";
+}
 
