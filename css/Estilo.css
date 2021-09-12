@@ -17,18 +17,18 @@ body {
 }
 
 .bg-dark {
-  background-color: #393e46 !important;
+  background-color: #3f3c3c !important;
   position: fixed;
   z-index: 50;
   width: 100%;
 }
 
 .bg-dark1 {
-  background-color: #393e46 !important;
+  background-color: #3f3c3c !important;
   position: fixed;
   z-index: 50;
   width: 100%;
-  border-bottom: 2px solid #fdbb2d;
+  border-bottom: 2px solid #50f3f3;
 }
 
 @media (min-width: 768px) {
@@ -103,7 +103,7 @@ h5 {
 /* Seccion Perfeil */
 
 .Perfil {
-  background-color: #e8e4e1;
+  background-color: white
   padding-top: 80px;
   padding-bottom: 80px;
   text-align: center;
@@ -138,7 +138,7 @@ h5 {
 
 /* Seccion Galeria  */
 .Galeria {
-  background-image: linear-gradient(180deg, #d2bff5, #9f7cf141 100%),
+  background-image: linear-gradient(180deg, white #9f7cf141 100%),
     url(../img/verdurashome.jpg);
   padding-top: 80px;
   padding-bottom: 80px;
@@ -175,7 +175,7 @@ h5 {
 }
 
 .apadrina{
-  background-color: #cabbec;
+  background-color: white;
   padding-top: 80px;
   padding-bottom: 80px;
   text-align: center;
@@ -222,16 +222,16 @@ h5 {
   font-size: 20 px;
   padding: 4px 15px;
   text-align: center;
-  background: linear-gradient(160deg, #22c3c3bb 0%, #fdbb2db0 100%);
+  background: linear-gradient(160deg, white 0%, #2de5fdee 100%);
   text-decoration: none;
 }
 
 .Contacto a:hover {
-  background: linear-gradient(160deg, #22c3c3f1 0%, #fdbb2dee 100%);
+  background: linear-gradient(160deg, white 0%, #2de5fdee 100%);
 }
 
 .foot {
-  background: linear-gradient(160deg, #a581e7f1 0%, #2de5fdee 100%);
+  background: linear-gradient(160deg, white 0%, #2de5fdee 100%);
 }
 
 .foot h4 {
@@ -247,7 +247,7 @@ h5 {
 body{
 	margin: 0;
 	padding: 0;
-	background: #d4b4f1;
+	background: #white;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -286,8 +286,8 @@ body{
 .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #555;
-  color: #fff;
+  background-color: white;
+  color: rgb(12, 12, 12);
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
